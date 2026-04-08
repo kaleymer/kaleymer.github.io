@@ -1,0 +1,81 @@
+/* tag selector - styles the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+  margin: 20px;
+}
+
+/* tag selector - styles all headings */
+h1 {
+  color: #0000cc;
+}
+
+h2 {
+  color: #333333;
+  border-bottom: 2px solid #cccccc;
+}
+
+/* tag selector - change link color, and hover effect */
+a {
+  color: #0000cc;
+}
+
+a:hover {
+  color: red;
+}
+
+/* tag selector - make image not too wide */
+img {
+  width: 300px;
+  margin: 10px 0px;
+}
+
+/* id selector - style the header div */
+#header {
+  background-color: #0000cc;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#header h1 {
+  color: white;
+  margin: 0px;
+}
+
+/* id selector - style the about section */
+#about {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+}
+
+/* id selector - style the projects section */
+#projects {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* id selector - style the footer */
+#footer {
+  background-color: #333333;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+/* class selector - style each project card, reused 3 times */
+.project {
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+.project h3 {
+  color: #0000cc;
+  margin-top: 0px;
+}
